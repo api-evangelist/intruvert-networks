@@ -1,8 +1,24 @@
 aid: intruvert-networks
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/intruvert-networks.png
 name: IntruVert Networks
-description: 'IntruVert Networks is a company surfaced as a portfolio company of trinity-ventures and
-  added to the API Evangelist network as a stub for enrichment. Sector: security. This profile is a lead
-  awaiting the enrichment pipeline.'
+description: 'IntruVert Networks was a network intrusion-prevention company founded in 2000 in San Jose,
+  California, and backed by Trinity Ventures. Its IntruShield product line combined purpose-built inline
+  intrusion-prevention appliances with the IntruShield Manager to detect and block network attacks in
+  real time. McAfee (then Network Associates) acquired IntruVert in May 2003 for approximately $103 million,
+  folding the technology into its intrusion-prevention portfolio. The company no longer operates independently
+  and publishes no live developer or API surface; this record is retained for historical/portfolio-graph
+  purposes only.'
 url: https://raw.githubusercontent.com/api-evangelist/intruvert-networks/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +26,22 @@ x-backed-by:
 - trinity-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: mcafee
+x-acquired-year: 2003
+x-enrichment: none-defunct
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
 - Security
+- Intrusion Prevention
+- Network Security
+- Cybersecurity
+- IntruShield
+- Acquired
+- McAfee
 apis: []
 maintainers:
 - FN: Kin Lane
